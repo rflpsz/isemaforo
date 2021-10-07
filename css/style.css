@@ -1,0 +1,43 @@
+.square {
+  width: 200px;
+  height: 540px;
+  padding-top: 20px;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ball {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid white;
+  margin-bottom: 10px;
+}
+
+.ball:hover {
+  opacity: 1;
+}
+
+.off {
+  opacity: 0.5;
+}
+
+.on {
+  opacity: 1;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
